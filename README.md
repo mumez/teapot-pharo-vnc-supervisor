@@ -6,4 +6,4 @@ It is an exmaple of how to customize 'pharo-vnc-supervisor' Docker image.
 ## Usages
 
 - Run the container: `bash run.sh`
-- Open the browser and access with http://localhost:9000/cat/Smalltalk/cool.
+- Open the browser and access with http://localhost:9000/cat/Smalltalk/cool
