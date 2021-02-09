@@ -12,3 +12,4 @@ ENV PHARO_HOME=${TEAPOT_DIR}
 VOLUME [ "${TEAPOT_DIR}" ]
 
 ADD ./config/startup.st ${TEAPOT_DIR}/config/
+ENV PHARO_START_SCRIPT=${TEAPOT_DIR}/config/startup.st
