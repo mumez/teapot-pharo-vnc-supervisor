@@ -9,6 +9,7 @@ RUN setup.sh && \
     cp -r /root/data ${TEAPOT_DIR}
 
 ENV PHARO_HOME=${TEAPOT_DIR}
+ENV PHARO_MODE=headless
 VOLUME [ "${TEAPOT_DIR}" ]
 
 ADD ./config/startup.st ${TEAPOT_DIR}/config/
