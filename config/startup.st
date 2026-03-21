@@ -8,3 +8,4 @@ teapot
     GET: '/cat/<a>/<b>' -> [:req | (req at: #a) , ' is ' , (req at: #b)];
     start.
 
+teapot inspect.
